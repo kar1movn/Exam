@@ -1,0 +1,42 @@
+.suggest{
+    
+    width: 825px;
+    min-height: 600px;
+    border-radius: 10px;
+    margin-bottom: 129px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 111px;
+
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & h2{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      text-align: center;
+      margin-top: 50px;
+      letter-spacing: -0.333333px;
+      margin-bottom: 16px;
+      color: #3A4374;
+
+    }
+    & p{
+      width: 410px;
+      height: 46px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 48px;
+      
+      color: #647196;
+
+    }
+  }
+}

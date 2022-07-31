@@ -1,0 +1,81 @@
+@mixin button1{
+  background-color:#AD1FEA;
+  border-radius: 10px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  color: rgba(242, 244, 254, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  
+}
+
+@mixin button1__hover{
+  background-color:rgba(199, 90, 246, 1);
+  border-radius: 10px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  color: rgba(242, 244, 254, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  
+  
+}
+
+@mixin button3{
+  background: #3A4374;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;  
+  padding-top: 13px;
+  padding-bottom: 11px;  
+}
+
+@mixin button3__hover{
+  background: #656EA3;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;  
+  padding-top: 13px;
+  padding-bottom: 11px;  
+}
+
+@mixin up{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 40px;
+  height: 53px;
+  background-color:rgba(242, 244, 254, 1);
+  border-radius: 10px;
+}
+
+
+@mixin up__hover{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 40px;
+  height: 53px;
+  background-color:#CFD7FF;
+  border-radius: 10px;
+}
+
+@mixin up__active{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 40px;
+  height: 53px;
+  background-color:#4661E6;
+  color:rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
